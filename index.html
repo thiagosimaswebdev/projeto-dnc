@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="swiper-bundle.css">
     <link rel="stylesheet" href="style.css">
-    <title>Escola DNC</title>
+
+<!--biblioteca icones-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<title>Escola DNC</title>
 </head>
 <body>
     <!-- Menu Superior -->
-    <section id="menusuperior">
-         <div id="logo"><img src="./img/image 14.png" alt="LOGO"></div>
-        <div id="caixa-texto">
+    <header class="menusuperior">
+         <div class="logo"><img src="./img/image 14.png" alt="LOGO"></div>
+        <div class="caixa-texto">
            <h1>Dê os primeiros passos da sua carreira em Tecnologia</h1>
             <p>Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School e aprenda os principais fundamentos para construir experiências efetivas.</p>
             
         </div>       
-    </section>
+    </header>
 
+  
       <!-- Menu Informativo -->
-        <div id="menuinforrmacional">
+        <div class="menuinforrmacional">
             
             <p class="textoinfo"><img src="./img/icons8-certificado-50.png" class="icone" alt="certificado">Certificado de conclusão</p>
             
@@ -30,23 +42,200 @@
             <p class="textoinfo"><img src="./img/icons8-video-camera-50.png" class="icone" alt="camera">Aulas online gravadas</p>
         </div>
         <!-- Secao Video -->
-         <section class="secVideo">
-                <div id="secaovideo">
-            <iframe width="552" height="310" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section class="secVideo">
+            
+                <div class="secaovideo">
+            <iframe width="452" height="310" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>  
-        <div id="textosvideo">
+        <div class="textosvideo">
             <h1>Aprenda com especialistas e comece seu primeiro projeto</h1>
-            <div id="paragrafos">
-              <p>Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos. </p>
+            <div class="paragrafos">
+            <p>Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos. </p>
                 </p>Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>              
             </div>
             
         </div>
 
-         </section>
+        </section>
 
+        <!--Seçao depoimentos-->
 
+        <section class="depoimentos">
+                <h1>Mais de 500 alunos já iniciaram seus estudos</h1>
+                <div class="swiper mySwiper">
 
+                    <div class="depo-conteiner swiper-wrapper">
+
+                        <div class="slide-depo swiper-slide">
+                            <i class="bi bi-quote"></i>
+
+                            <p class="depoi-txt">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur eveniet earum qui suscipit libero. 
+                            </p>
+                            <div class="person">
+                                <img src="/img/imgdepo/Sem_nome_(40_x_40_px)_(1000_x_1000_px)_(1)[1].png" alt="">
+                                <div class="info-person">
+                                    <p class="nome-person">Thiago Simas</p>
+                                    <p class="func-person">Web Developer</p>
+                                </div>
+                            </div>
+
+                        </div>  
+
+                        <div class="slide-depo swiper-slide">
+                            <i class="bi bi-quote"></i>
+
+                            <p class="depoi-txt">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur eveniet earum qui suscipit libero. 
+                            </p>
+                            <div class="person">
+                                <img src="/img/imgdepo/Sem_nome_(40_x_40_px)_(1000_x_1000_px)_(1)[1].png" alt="">
+                                <div class="info-person">
+                                    <p class="nome-person">Thiago Simas</p>
+                                    <p class="func-person">Web Developer</p>
+                                </div>
+                            </div>
+
+                        </div>  
+
+                        <div class="slide-depo swiper-slide">
+                            <i class="bi bi-quote"></i>
+
+                            <p class="depoi-txt">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur eveniet earum qui suscipit libero. 
+                            </p>
+                            <div class="person">
+                                <img src="/img/imgdepo/Sem_nome_(40_x_40_px)_(1000_x_1000_px)_(1)[1].png" alt="">
+                                <div class="info-person">
+                                    <p class="nome-person">Thiago Simas</p>
+                                    <p class="func-person">Web Developer</p>
+                                </div>
+                            </div>
+
+                        </div>  
+
+                        <div class="slide-depo swiper-slide">
+                            <i class="bi bi-quote"></i>
+
+                            <p class="depoi-txt">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur eveniet earum qui suscipit libero. 
+                            </p>
+                            <div class="person">
+                                <img src="/img/imgdepo/Sem_nome_(40_x_40_px)_(1000_x_1000_px)_(1)[1].png" alt="">
+                                <div class="info-person">
+                                    <p class="nome-person">Thiago Simas</p>
+                                    <p class="func-person">Web Developer</p>
+                                </div>
+                            </div>
+
+                        </div>  
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>            
+            </div>
+
+        </section>
+        <section class="formulario-conteiner">
+
+            <div class="formulariro">
+                <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+            </div>
+            <form class="form-inputs">
+                    <!-- Nome -->
+                    <div class="form-group">
+                    <input class="input" type="text" placeholder="Nome" id="nome" name="nome" required>
+                    </div>
+
+                    <!-- E-mail -->
+                    <div class="form-group">
+                    <input class="input" type="email" placeholder="E-mail" id="email" name="email" required>
+                    </div>
+
+                    <!-- Telefone -->
+                    <div class="form-group">
+                    <input class="input" type="text" placeholder="Telefone" id="telefone" name="telefone" required>
+                    </div>
+
+                    <!-- Botão de envio -->
+                    <button class="botao" type="submit">Acesse a ementa grátis</button>
+            </form>
+            
+        </section>
+
+        <footer>
+            <div class="interface">
+
+                <section class="line-footer1">
+
+                    <h2>Dê os primeiros passos da sua carreira em Tecnologia</h2>
+                    <p>Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School:</p>
+                    <form action="">
+                        <input type="email">
+                        <input type="submit" value="Cadastrar">
+                    </form>
+
+                </section>
+
+                <section class="line-footer2">
+
+                    <div class="box-line-footer">
+                        <img src="/img/image 14.png" alt="">    
+                    </div>
+
+                    <div class="box-line-footer">
+                        <h3>Links úteis</h3>
+                        <div class="links-footer">
+                            <a href="">Blog</a>
+                            <a href="">Sobre a DNC</a>
+                            <a href="">História</a>
+                        </div>
+                    </div>
+                    
+                    <div class="box-line-footer">
+                        <h3>Cursos</h3>
+                        <div class="links-footer">
+                            <a href="">Desenvolviment Front-End</a>
+                            <a href="">Lógica da programação</a>
+                            <a href="">Mídias Sociais</a>
+                            <a href="">UX/UI</a>
+                        </div>
+                    </div>
+
+                    <div class="box-line-footer">
+                        <h3>Suporte</h3>
+                        <div class="links-footer">
+                            <a href="">Entre em contato</a>
+                            <a href="">Envie um e-mail</a>
+                            <a href="">FAQ</a>
+                        </div>
+                    </div>
+
+                    <div class="box-line-footer">
+                        <h3>Siga-me</h3>
+                        <div class="links-redesocial">
+                            <a href="https://www.instagram.com/simasthiago85?igsh=MTA2eWlqNjdidzg1NQ%3D%3D&utm_source=qr" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/thiago-simas-4726b166/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/thiagosimaswebdev" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://wa.me/5521983120337?text=Olá!" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="line-footer3">
+                    <img class="logoimg" src="./img/imgfooter/Cópia de SIMAS (7).png" alt="">
+                    <div class="txt-rodape">
+                        <p>Desenvolvido por <a href="">Thiago Simas 2025</a> &copy; todos os direitos reservados</p>
+                    </div>
+                </section>
+            </div>
+
+        </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js"></script>
+    <script src="/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
+    
 </body>
 </html>
